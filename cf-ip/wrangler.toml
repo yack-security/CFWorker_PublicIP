@@ -1,6 +1,11 @@
-name = "cf-ip"
+name = "getpublicip_worker"
 main = "src/index.js"
 compatibility_date = "2024-07-12"
 compatibility_flags = ["nodejs_compat"]
+workers_dev = false
 
-account_id = "<account_id>"
+# account_id = "<account_id>"
+
+routes = [
+	{ pattern = "ip.yack.one", custom_domain = true }
+]
