@@ -49,6 +49,7 @@ async function handleRequest(request) {
 			timezone: request.cf.timezone,
 			colo: request.cf.colo,
 			metroCode: request.cf.metroCode,
+			tlsVersion: request.cf.tlsVersion,
 			httpProtocol: request.cf.httpProtocol
 		}
 		return new Response(JSON.stringify(data, null, 2), {
