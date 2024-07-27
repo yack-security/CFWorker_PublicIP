@@ -41,6 +41,7 @@ Output example:
   "country": "<country>",
   "timezone": "<timezone>",
   "colo": "<colo>",
+  "tlsVersion": "TLSv1.3",
   "httpProtocol": "HTTP/2"
 }
 ```
